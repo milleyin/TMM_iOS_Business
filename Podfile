@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+pod 'Masonry'
+pod 'CocoaLumberjack'
+pod 'MBProgressHUD'
+pod 'ReactiveCocoa'

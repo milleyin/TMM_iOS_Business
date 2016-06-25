@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5d2f20a9-6f85-435a-9b64-d1a56891d47e++9307",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++9307" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++9307" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B90CC83-8D7A-46BF-B86C-771F954C365B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5d2f20a9-6f85-435a-9b64-d1a56891d47e++9307" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TianMM_Business",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TianMM_Business.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/dev.365tmm.net",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5d2f20a9-6f85-435a-9b64-d1a56891d47e++9307"
+    }
+  ]
+}

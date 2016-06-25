@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  TianMM
+//
+//  Created by cocoa on 15/9/4.
+//  Copyright (c) 2015年 cocoa. All rights reserved.
+//
+
+#ifndef TianMM_PrefixHeader_pch
+#define TianMM_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+    #import "CocoaLumberjack.h"
+    #import <WebKit/WebKit.h>
+    #import <MBProgressHUD.h>
+    #import <ReactiveCocoa/ReactiveCocoa.h>
+    #import "WebViewJavascriptBridge.h"
+    #import "Masonry.h"
+
+
+//static DDLogLevel ddLogLevel = DDLogLevelAll;
+static DDLogLevel ddLogLevel = DDLogLevelOff;
+
+
+#endif
+
+#define STATUS_BAR_HEIGHT 20
+
+#define kScreen_Height [UIScreen mainScreen].bounds.size.height
+#define kScreen_Width [UIScreen mainScreen].bounds.size.width
+
+//#define UPDATE_URL   @"https://m.365tmm.com/index.php?r=admin/tmm_software/query&store=store&zip=zip&ios=ios"
+
+#define APPSTORE_UPDATE_URL    @"https://itunes.apple.com/lookup?id=1043412617"
+#define APPSTORE_URL    @"https://itunes.apple.com/cn/app/tian-mi-mi-shang-jia-duan/id1043412617?mt=8"
+
+//#define APP_URL         @"https://m.365tmm.com/store/index.html"
+#define APP_URL         @"http://test2.365tmm.net/store/index.html"
+
+#endif
